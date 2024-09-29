@@ -1,0 +1,3 @@
+module littlec;
+
+fn int add(int a, int b) @extern("add");
