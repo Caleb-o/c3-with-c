@@ -1,11 +1,11 @@
 { 
   "provides" : "littlec",
+  "c-sources": [ "littlec.c" ],
   "targets" : {
     "linux-x64" : {
       "link-args" : [],
       "dependencies" : [],
-      "linked-libraries" : [],
-      "c-sources": [ "littlec.c" ]
+      "linked-libraries" : []
     }
   }
 }
